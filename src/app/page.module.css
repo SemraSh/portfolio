@@ -1,21 +1,24 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100vh;
-  color: #626249;
+  flex-wrap: wrap;
+  padding: 4%;
 }
 
-.brand {
-  height: 200px;
-  display: inherit;
-  flex-direction: row;
-  align-items: center;
+.head {
+  font-family: "Gilda Display", serif;
+  font-weight: 100;
+  font-size: 56px;
+  width: 100%;
+  line-height: 80px;
+  font-style: italic;
+}
+
+.name {
+  font-size: 106px;
 }
 
 .description {
-  font-size: 0.85rem;
   max-width: var(--max-width);
   z-index: 2;
   font-family: var(--font-mono);
@@ -26,10 +29,6 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-}
-
-.history {
-  line-height: 36px;
 }
 
 .history b {
