@@ -10,12 +10,17 @@
   font-weight: 100;
   font-size: 56px;
   width: 100%;
-  line-height: 80px;
   font-style: italic;
 }
 
 .name {
   font-size: 106px;
+}
+
+.smallDescription {
+  font-size: 8px;
+  line-height: 10px;
+  max-width: 500px;
 }
 
 .description {
