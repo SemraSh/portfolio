@@ -27,11 +27,14 @@ export default function Home() {
       <div className={styles.section}>
         <h3>My story ( I will make this shorter in time) </h3>
         <p>
-          I learned React and Javascript and Typscript in a bootcamp ( If you
-          are thinking, well she is just a bootcamp grad &quot;not good,
-          booooo&quot; I suggest you close this page now, we are not on the same
-          page) I was honered a scholarship from Earnest&Young to do the
-          bootcamp (£6K), I was ambitious enough to impress them.
+          I studied Architecture and absolutely loved it. If I were to study
+          again, I would choose architecture without hesitation. It&apos;s not
+          just about the field itself; architecture school teaches you about
+          life, politics, people, love, the city, and how we live. It shapes how
+          you see the world and how to be. However, if you&apos;re not fortunate
+          enough to come from a wealthy or influential background, a career in
+          architecture can be challenging. It often involves very long hours
+          with inadequate compensation.
         </p>
       </div>
 
