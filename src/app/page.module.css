@@ -11,9 +11,21 @@
   font-size: 56px;
   width: 100%;
   font-style: italic;
+  margin-bottom: 50px;
 }
 
-.name {
+.section {
+  margin: 50px 10px;
+}
+
+.section p {
+  max-width: 600px;
+  width: 90vw;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  /* font-style: italic; */
+}
+s .name {
   font-size: 106px;
 }
 

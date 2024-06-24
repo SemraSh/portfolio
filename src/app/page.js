@@ -19,22 +19,25 @@ export default function Home() {
           Semra Refkaeva Shukrieva, but semrashukrieva.com was taken so I took
           semradora.com
         </p>
-        <br />
-        web developer
+        <h4>web developer</h4>
       </div>
 
       {/* STORY */}
       <div className={styles.section}>
-        <h3>My story ( I will make this shorter in time) </h3>
-        <p>
-          I studied Architecture and absolutely loved it. If I were to study
-          again, I would choose architecture without hesitation. It&apos;s not
-          just about the field itself; architecture school teaches you about
-          life, politics, people, love, the city, and how we live. It shapes how
-          you see the world and how to be. However, if you&apos;re not fortunate
-          enough to come from a wealthy or influential background, a career in
-          architecture can be challenging. It often involves very long hours
-          with inadequate compensation.
+        <p className={styles.paragraph}>
+          In 2008-2014 I studied Architecture in Istanbul Technical University{" "}
+          <br />
+          <br />
+          In 2014, I moved from Turkey to the UK for a master’s at UCL Bartlett.
+          My partner and I then launched a 3D printing and product design
+          company, which led us to create a web app connecting people with local
+          craftsmen. <br />
+          <br />
+          In 2017, I transitioned to software development and have since worked
+          with various companies as a Javascript developer.
+          <br />
+          <br />I nowadays am looking a stable workplace where I can trust the
+          environment
         </p>
       </div>
 
@@ -42,7 +45,7 @@ export default function Home() {
       <div className={styles.section}></div>
 
       {/* JOURNAL */}
-      <div className={styles.journal}>
+      <div className={styles.section}>
         <b>Journal of this website</b>
         <p>
           <b>10th of June 2024</b> I just started building this website with
