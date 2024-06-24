@@ -38,9 +38,6 @@ export default function Home() {
           and quality, always embodying the principles of honesty, transparency,
           and kindness.
         </p>
-        <p>
-          &quot;Love above all. Kindness above all. Passion above all.&quot;
-        </p>
       </div>
 
       {/* WORKS */}

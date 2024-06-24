@@ -23,7 +23,6 @@
   width: 90vw;
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
-  /* font-style: italic; */
 }
 s .name {
   font-size: 106px;
@@ -46,9 +45,4 @@ s .name {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-}
-
-.history b {
-  text-transform: uppercase;
-  color: #b7b7a4;
 }
