@@ -24,20 +24,22 @@ export default function Home() {
 
       {/* STORY */}
       <div className={styles.section}>
-        <p className={styles.paragraph}>
-          In 2008-2014 I studied Architecture in Istanbul Technical University{" "}
-          <br />
-          <br />
-          In 2014, I moved from Turkey to the UK for a master’s at UCL Bartlett.
-          My partner and I then launched a 3D printing and product design
-          company, which led us to create a web app connecting people with local
-          craftsmen. <br />
-          <br />
-          In 2017, I transitioned to software development and have since worked
-          with various companies as a Javascript developer.
-          <br />
-          <br />I nowadays am looking a stable workplace where I can trust the
-          environment
+        <p>
+          Currently based in Barcelona, I live in a beautiful apartment filled
+          with books, paintings, plants and hand made utilities. My journey
+          began in 2014 when I moved from Turkey to London, where I pursued a
+          master&apos;s degree. In London&apos;s vibrant atmosphere, I founded a
+          3D printing and product design company, connecting artists with
+          skilled craftsmen, guided by my philosophy: Celebrate innovation and
+          timeless design. In 2017, I transitioned into software development.
+          Now a skilled JavaScript engineer, I&apos;ve worked with various
+          companies, bringing a collaborative spirit and a drive to improve team
+          dynamics. Every project is an opportunity to enhance team performance
+          and quality, always embodying the principles of honesty, transparency,
+          and kindness.
+        </p>
+        <p>
+          &quot;Love above all. Kindness above all. Passion above all.&quot;
         </p>
       </div>
 
