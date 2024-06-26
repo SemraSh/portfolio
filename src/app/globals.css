@@ -109,6 +109,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
+  padding: 4%;
+  font-family: "Cormorant Garamond";
   background: linear-gradient(
       to bottom,
       transparent,

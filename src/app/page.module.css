@@ -1,8 +1,21 @@
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 4%;
+  border-right: 1px solid black;
+  animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
 .head {
@@ -24,7 +37,12 @@
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
 }
-s .name {
+
+.techSkills {
+  font-size: small;
+}
+
+.name {
   font-size: 106px;
 }
 
@@ -32,17 +50,4 @@ s .name {
   font-size: 8px;
   line-height: 10px;
   max-width: 500px;
-}
-
-.description {
-  max-width: var(--max-width);
-  z-index: 2;
-  font-family: var(--font-mono);
-}
-
-.description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
 }

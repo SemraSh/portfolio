@@ -1,5 +1,32 @@
-.resumeWrapper {
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.wrapper {
+  padding-top: 4%;
+  font-family: "Gilda Display", serif;
+  line-height: 30px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.workExperience {
+  margin: 24px 0;
+}
+
+.workExperience a {
+  color: #4a5bbf;
+  margin: 0 5px;
+}
+
+.date {
+  margin: 10px 0;
 }

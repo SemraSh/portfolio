@@ -1,21 +1,19 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
+import Menu from "./components/menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Semra Shukrieva",
-  description: "web developer",
+  title: "Semra Sh",
+  description: "portfolio website",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <menu>
-          |<Link href={"/"}>me</Link>|<Link href={"/resume"}>resume</Link>
-        </menu>
+        <Menu />
         {children}
       </body>
     </html>
