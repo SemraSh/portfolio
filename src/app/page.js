@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.head}>
-        <text className={styles.name}>
+        <p className={styles.name}>
           semra <br />
           dora / shukrieva
-        </text>
+        </p>
         <p className={styles.smallDescription}>
           <b>What&apos;s with the surnames?</b> <br />I have 3 nationalities,
           Bulgarian, Turkish and British, I was born in Bulgaria moved to Turkey
