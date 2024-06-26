@@ -14,7 +14,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border-right: 1px solid black;
   animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
@@ -25,6 +24,13 @@
   width: 100%;
   font-style: italic;
   margin-bottom: 50px;
+}
+
+.social {
+  width: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .section {

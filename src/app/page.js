@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import github_logo from "../../public/github-mark.png";
+import linkedin_logo from "../../public/linkedin.svg";
 import imza from "../../public/imza.png";
 import Link from "next/link";
 
@@ -22,6 +23,22 @@ export default function Home() {
           semradora.com
         </p>
         <h4>Senior Javascript developer</h4>
+        <div className={styles.social}>
+          <a href="https://github.com/SemraSh" target="_blank">
+            <Image src={github_logo} alt="github link" width={23} height={23} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/semra-shukrieva-55639656/"
+            target="_blank"
+          >
+            <Image
+              src={linkedin_logo}
+              alt="linkedin link"
+              width={23}
+              height={23}
+            />
+          </a>
+        </div>
       </div>
 
       <div className={styles.techSkills}>
@@ -84,9 +101,6 @@ export default function Home() {
 
       {/* FOOTER */}
       <div className={styles.footer}>
-        <a href="https://github.com/SemraSh" target="_blank">
-          <Image src={github_logo} alt="github link" width={23} height={23} />
-        </a>
         <Link href="/">
           <Image src={imza} alt="signature" width={500} height={"auto"} />
         </Link>
