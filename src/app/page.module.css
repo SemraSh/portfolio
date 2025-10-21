@@ -15,6 +15,9 @@
   flex-direction: column;
   flex-wrap: wrap;
   animation: myAnim 2s ease 0s 1 normal forwards;
+  text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .head {
@@ -27,21 +30,69 @@
 }
 
 .social {
-  width: 64px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  gap: 16px;
+  justify-content: center;
 }
 
 .section {
-  margin: 50px 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: start;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.section > b {
+  text-align: right;
+  padding-right: 0;
+  align-self: start;
+}
+
+.section > div {
+  text-align: left;
+  max-width: 600px;
+  padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .section > b {
+    text-align: left;
+  }
 }
 
 .section p {
-  max-width: 600px;
-  width: 90vw;
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
+}
+
+.section h3 {
+  margin-bottom: 20px;
+}
+
+.section ul {
+  margin-top: 20px;
+  list-style-type: decimal;
+}
+
+.section li {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  margin-bottom: 8px;
 }
 
 .techSkills {
@@ -52,8 +103,49 @@
   font-size: 106px;
 }
 
+.title {
+  color: #ff5c00;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 10px;
+  color: #ff5c00;
+  font-family: "Gilda Display", serif;
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 32px;
+  }
+
+  .name {
+    font-size: 56px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}
+
 .smallDescription {
   font-size: 8px;
   line-height: 10px;
   max-width: 500px;
+}
+
+.footer {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  border-top: 0.5px solid #cccccc;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.signature {
+  font-family: var(--font-allura);
+  font-size: 32px;
+  font-weight: 400;
 }

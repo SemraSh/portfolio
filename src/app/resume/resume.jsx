@@ -6,6 +6,38 @@ export default function Resume() {
       <div>
         <div className={styles.workExperience}>
           <h3>
+            Contract Engineer at Bayer |
+            <a href="https://copper.co/" target="_blank">
+              copper.co
+            </a>
+            <p className={styles.date}>
+              <i>August 2022 - May 2024</i>
+            </p>
+          </h3>
+          <ul>
+            <li>
+              Optimized web app performance for fast load times and smooth
+              functionality across devices and browsers.
+            </li>
+            <li>
+              Collaborated with design teams to implement responsive layouts.
+            </li>
+            <li>
+              Integrated features like ClearLoop, Custody, Copper Network,
+              Staking, DeFi Connectivity, and Treasury Management.
+            </li>
+            <li>
+              Ensured compliance with industry standards for digital asset
+              custody and trading.
+            </li>
+            <li>
+              Worked closely with backend, QA, and product teams to implement
+              features and reviewed code for high standards.
+            </li>
+          </ul>
+        </div>
+        <div className={styles.workExperience}>
+          <h3>
             Senior Frontend Engineer at Copper |
             <a href="https://copper.co/" target="_blank">
               copper.co

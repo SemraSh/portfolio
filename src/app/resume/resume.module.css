@@ -15,7 +15,15 @@
   font-family: "Gilda Display", serif;
   line-height: 30px;
   display: flex;
+  justify-content: center;
   animation: myAnim 2s ease 0s 1 normal forwards;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wrapper > div {
+  max-width: 800px;
+  width: 100%;
 }
 
 .workExperience {
@@ -29,4 +37,15 @@
 
 .date {
   margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .workExperience h3 {
+    font-size: 18px;
+  }
 }
