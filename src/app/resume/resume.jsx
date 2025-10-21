@@ -6,33 +6,49 @@ export default function Resume() {
       <div>
         <div className={styles.workExperience}>
           <h3>
-            Contract Engineer at Bayer |
-            <a href="https://copper.co/" target="_blank">
-              copper.co
+            Senior Contract Frontend Engineer at Bayer |
+            <a href="https://ohif.org/" target="_blank">
+              OHIF Medical Imaging Platform
             </a>
             <p className={styles.date}>
-              <i>August 2022 - May 2024</i>
+              <i>May 2023 - October 2025</i>
             </p>
           </h3>
           <ul>
             <li>
-              Optimized web app performance for fast load times and smooth
-              functionality across devices and browsers.
+              Served as the primary frontend engineer for a cancer lesion
+              tracking application built for radiologists and oncologists,
+              architecting and implementing critical features for patient scan
+              analysis.
             </li>
             <li>
-              Collaborated with design teams to implement responsive layouts.
+              Led frontend technical decisions and designed a completely new
+              custom extension within the OHIF (Open Health Imaging Foundation)
+              platform, integrating seamlessly with OHIF's mode system and
+              viewer architecture while delivering unique functionality.
             </li>
             <li>
-              Integrated features like ClearLoop, Custody, Copper Network,
-              Staking, DeFi Connectivity, and Treasury Management.
+              Implemented RECIST 1.1 criteria for tumor measurement and
+              assessment, enabling doctors to make precise annotations, track
+              lesion progression, and identify abnormalities in medical imaging
+              scans.
             </li>
             <li>
-              Ensured compliance with industry standards for digital asset
-              custody and trading.
+              Navigated and contributed to an extremely complex monorepo
+              architecture, managing dependencies across multiple packages,
+              extensions, and modes while maintaining code quality and build
+              performance.
             </li>
             <li>
-              Worked closely with backend, QA, and product teams to implement
-              features and reviewed code for high standards.
+              Collaborated closely with UI/UX designers to create an intuitive
+              interface for complex medical workflows, translating clinical
+              requirements into responsive, accessible frontend components using
+              React, TypeScript, and OHIF's extension framework.
+            </li>
+            <li>
+              Drove technical discussions and code reviews, establishing
+              frontend patterns and best practices for the team while ensuring
+              HIPAA compliance and medical-grade reliability.
             </li>
           </ul>
         </div>
@@ -43,7 +59,7 @@ export default function Resume() {
               copper.co
             </a>
             <p className={styles.date}>
-              <i>August 2022 - May 2024</i>
+              <i>August 2022 - April 2023</i>
             </p>
           </h3>
           <ul>
