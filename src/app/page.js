@@ -36,14 +36,14 @@ export default function Home() {
         <b>Manifesto</b>
         <div>
           <p>Create beauty that breathes — imperfect, alive, and honest.</p>
-          <p>Move toward what feels real, even if it's uncomfortable.</p>
+          <p>Move toward what feels real, even if it&apos;s uncomfortable.</p>
           <p>Trust silence more than noise, intuition more than instruction.</p>
           <p>Keep my eyes open to light — the morning kind, the human kind.</p>
           <p>Make space for tenderness, even when the world feels sharp.</p>
           <p>
             Walk lightly on this earth but leave deep footprints of meaning.
           </p>
-          <p>Don't worship busyness or applause. Choose presence.</p>
+          <p>Don&apos;t worship busyness or applause. Choose presence.</p>
           <p>
             Love without performing, work without pretending, rest without
             guilt.

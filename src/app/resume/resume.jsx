@@ -24,7 +24,7 @@ export default function Resume() {
             <li>
               Led frontend technical decisions and designed a completely new
               custom extension within the OHIF (Open Health Imaging Foundation)
-              platform, integrating seamlessly with OHIF's mode system and
+              platform, integrating seamlessly with OHIF&apos;s mode system and
               viewer architecture while delivering unique functionality.
             </li>
             <li>
@@ -43,7 +43,7 @@ export default function Resume() {
               Collaborated closely with UI/UX designers to create an intuitive
               interface for complex medical workflows, translating clinical
               requirements into responsive, accessible frontend components using
-              React, TypeScript, and OHIF's extension framework.
+              React, TypeScript, and OHIF&apos;s extension framework.
             </li>
             <li>
               Drove technical discussions and code reviews, establishing
